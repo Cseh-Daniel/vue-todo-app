@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Todo List</h1>
+
+    <h1 class="text-3xl font-bold underline">
+      Todo List
+    </h1>
 
     <TodoList :elements="['alma', 'korte', 'Banon']" />
   </div>
